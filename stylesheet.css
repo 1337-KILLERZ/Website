@@ -88,16 +88,26 @@ Main {
 	margin-right: 100px;
 }
 
-#middle {
-	width: 30%; 
+#Advert {
+	width: 15%;
+	hight: 90%;
 	float: left;
-	margin: 20px; 
+	border: solid;
+	border-width: 1px;
+	text-align:center;
+	
+}
 
+#middle {
+	width: 63%; 
+	margin:auto;
+	float: left;
+	margin-left:8px;
 }
 
 #sidebar {
-	width: 270px;
-	hight: 500px;
+	width: 20.5%;
+	
 	float: right;
 }
 
