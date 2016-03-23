@@ -77,8 +77,6 @@ Main {
 	background-color:#FFBC4D;
 	width: 100%;
 	border:thin;
-	
-	
 }
 
 #content {
@@ -91,7 +89,7 @@ Main {
 }
 
 #Advert {
-	width: 15%;
+	width: 12%;
 	hight: 90%;
 	float: left;
 	border: solid;
@@ -101,7 +99,7 @@ Main {
 }
 
 #middle {
-	width: 62%; 
+	width: 65%; 
 	margin:auto;
 	float: left;
 	margin-left:10px;
@@ -110,15 +108,18 @@ Main {
 
 #sidebar {
 	width: 21%;
-	
+	hight: 90%;
 	float: right;
+	border: solid;
+	border-width: 1px;
+	text-align:center;
 }
 
 footer {
-	width: 90%; 
+	width: 99.3%; 
 	hight: 80px;
-	clear: both;
-	padding: 0 15px;
+	border: 5px solid grey;
+
 }
 
 #content {
