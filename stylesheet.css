@@ -99,18 +99,36 @@ Main {
 	
 }
 
+.RocketH {
+	float:left;	
+}
+
 #middle {
 	width: 65%;
 	margin:auto;
 	float: left;
 	margin-left:10px;
 	background-color:#FFFFFF;
-	
+
 }
 
 div  {
-    background-size: 580px 400px;
-    background-repeat: no-repeat;
+    background-size: 480px 300px;
+	background-position:center;
+	background-repeat:no-repeat
+}
+
+#Backframe {
+	text-align:center;
+	background-color:#5b9bd5;
+	float:right;
+	margin-top: 10px;
+	margin-right: 10px;
+	width: 12%;
+	height: 50px;
+	color:#FFFFFF;
+	bordercolor:#000000;
+	border-width:thin
 }
 
 #middleframe {
@@ -119,6 +137,7 @@ div  {
 	color:#FFFFFF;
 	float:left;
 	width:48.5%;
+	height: 300px;
 	bordercolor:#000000;
 	border-width:thin;
 	border:solid;
@@ -131,6 +150,7 @@ div  {
 	color:#FFFFFF;
 	float:right;
 	width:48.5%;
+	height: 300px;
 	bordercolor:#000000;
 	border-width:thin;
 	border:solid;
@@ -142,6 +162,7 @@ div  {
 	color:#FFFFFF;
 	float:left;
 	width:48.5%;
+	height: 300px;
 	bordercolor:#000000;
 	border-width:thin;
 	border:solid;
@@ -153,15 +174,12 @@ div  {
 	color:#FFFFFF;
 	float:right;
 	width:48.5%;
+	height: 300px;
 	bordercolor:#000000;
 	border-width:thin;
 	border:solid;
 }
 
-
-.H {
-	
-}
 
 #sidebar {
 	width: 21%;
@@ -190,5 +208,5 @@ header, #content, #middle, #sidebar {
 
 #pagewrap, header, #content, #middle, #sidebar, footer {
 	border: solid 1px #ccc;
-}/* CSS Document */
+}
 
