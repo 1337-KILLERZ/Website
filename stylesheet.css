@@ -57,7 +57,7 @@ body {
 
 #Main {
     width: auto;
-	height: 1080px;
+	height: 901px;
     padding: 10px;
     border: 5px solid gray;
     margin: 0; 
@@ -100,11 +100,61 @@ Main {
 }
 
 #middle {
-	width: 65%; 
+	width: 65%;
 	margin:auto;
 	float: left;
 	margin-left:10px;
 	background-color:#FFFFFF;
+	
+}
+
+#middleframe {
+	background-image:url(Images/Rocket.png);
+	text-align:center;
+	color:#FFFFFF;
+	float:left;
+	width:48%;
+	bordercolor:#000000;
+	border-width:thin;
+	border:solid;
+	
+}
+
+#middleframe2 {
+	background-image:url(Images/Plane.png);
+	text-align:center;
+	color:#FFFFFF;
+	float:right;
+	width:48%;
+	bordercolor:#000000;
+	border-width:thin;
+	border:solid;
+}
+
+#middleframe3 {
+	background-image:url(Images/Station.png);
+	text-align:center;
+	color:#FFFFFF;
+	float:left;
+	width:48%;
+	bordercolor:#000000;
+	border-width:thin;
+	border:solid;
+}
+
+#middleframe4 {
+	background-image:url(Images/Other.png);
+	text-align:center;
+	color:#FFFFFF;
+	float:right;
+	width:48%;
+	bordercolor:#000000;
+	border-width:thin;
+	border:solid;
+}
+
+.H {
+	
 }
 
 #sidebar {
@@ -120,6 +170,7 @@ footer {
 	width: 99.3%; 
 	hight: 80px;
 	border: 5px solid grey;
+	text-align: center;
 
 }
 
