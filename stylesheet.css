@@ -10,6 +10,11 @@ body {
   background-attachment: fixed;
   
 }
+
+#image{
+position:absolute;
+}
+
 #pagewrap {
 	
 	padding: 5px;
