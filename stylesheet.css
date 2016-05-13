@@ -185,6 +185,18 @@ div  {
 	border:solid;
 }
 
+#Feedback {
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	width:90%;
+	height: 430px;
+	bordercolor:#000000;
+	border-width:thin;
+	border:solid;
+}
+
+
 
 #sidebar {
 	width: 21%;
