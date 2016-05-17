@@ -31,16 +31,13 @@ position:absolute;
     border: none;
     cursor: pointer;
 }
-
 .dropbtn:hover, .dropbtn:focus {
     background-color: #808080;
 }
-
 .dropdown {
     position: relative;
 	display:flex;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -48,14 +45,12 @@ position:absolute;
     min-width: 140px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
-
 .dropdown-content a {
     color: black;
     padding: 18px 18px;
     text-decoration: none;
     display: block;
 }
-
 .dropdown-content a:hover {background-color: #AAAAAA }
 
 .show {display:block;}
@@ -195,8 +190,6 @@ div  {
 	border-width:thin;
 	border:solid;
 }
-
-
 
 #sidebar {
 	width: 21%;
